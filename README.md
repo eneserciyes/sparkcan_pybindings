@@ -1,3 +1,16 @@
+To install python bindings in conda env:
+```bash
+git clone https://github.com/vedAnts256/sparkcan_pybindings.git
+cd sparkcan_pybindings
+conda activate your_env
+pip install -U scikit-build-core cmake ninja pybind11
+pip install .
+```
+
+This works with firmware 25.0.X
+
+Original sparkcan library readme below. This is a modified fork of https://github.com/grayson-arendt/sparkcan.git
+
 #### Disclaimer
 This project is not affiliated with, endorsed by, or in any way connected to REV Robotics. All product names, logos, and brands are property of their respective owners. Any references to REV Robotics products, such as the SPARK MAX or SPARK Flex, are purely for identification purposes and do not imply any endorsement or sponsorship.
 
