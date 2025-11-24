@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -flto -shared  -o sparkcan_py.cpython-310-x86_64-linux-gnu.so CMakeFiles/sparkcan_py.dir/bindings/pybind11/sparkcan_bindings.cpp.o  -Wl,-rpath,/home/robotlab/code/sparkcan_python_test/build libsparkcan.so 

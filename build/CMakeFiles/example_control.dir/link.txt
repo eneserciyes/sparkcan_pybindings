@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/example_control.dir/examples/control.cpp.o -o example_control  -Wl,-rpath,/home/robotlab/code/sparkcan_python_test/build libsparkcan.so 
